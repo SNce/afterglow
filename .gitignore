@@ -3,11 +3,13 @@
 *.lo
 *.o
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
+# Visual studio files and folders
+*.opensdf
+*.suo
+*.sdf
+*.user
+ipch/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+# All Debug and Release folders
+[Dd]ebug*/
+[Rr]elease*/
