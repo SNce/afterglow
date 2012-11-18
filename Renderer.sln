@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Renderer", "Renderer\Renderer.vcxproj", "{D1649245-0C14-4CE8-8F48-39E1A9062AB4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MayaExport", "MayaExport\MayaExport.vcxproj", "{CD03D854-9B35-42DE-A84E-EA377956C261}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1649245-0C14-4CE8-8F48-39E1A9062AB4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D1649245-0C14-4CE8-8F48-39E1A9062AB4}.Debug|Win32.Build.0 = Debug|Win32
+		{D1649245-0C14-4CE8-8F48-39E1A9062AB4}.Release|Win32.ActiveCfg = Release|Win32
+		{D1649245-0C14-4CE8-8F48-39E1A9062AB4}.Release|Win32.Build.0 = Release|Win32
+		{CD03D854-9B35-42DE-A84E-EA377956C261}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CD03D854-9B35-42DE-A84E-EA377956C261}.Debug|Win32.Build.0 = Debug|Win32
+		{CD03D854-9B35-42DE-A84E-EA377956C261}.Release|Win32.ActiveCfg = Release|Win32
+		{CD03D854-9B35-42DE-A84E-EA377956C261}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

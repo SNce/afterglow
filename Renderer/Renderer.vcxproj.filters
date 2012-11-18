@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Windows">
+      <UniqueIdentifier>{106f4d67-4658-47aa-bc6d-dc40eac3cb45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh">
+      <UniqueIdentifier>{38b002e2-10c1-414b-b07a-07697c6f0d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{f9b1e49d-59cc-444a-a12f-74f5eeb48bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Types">
+      <UniqueIdentifier>{85e0e265-cd78-4f19-b466-bdfeafb4a179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Driver">
+      <UniqueIdentifier>{e3834909-9508-457e-88b7-6c35dc5e3982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{2c4cdc82-c94a-43df-b4c1-d174bbc93834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Renderer">
+      <UniqueIdentifier>{180a4332-bc8d-4749-8b54-dcced22ab4d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Renderer\Camera">
+      <UniqueIdentifier>{622f055b-40f9-4dc6-a54b-0eca14d7b655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Actor">
+      <UniqueIdentifier>{988a2006-529f-4933-b040-8aa0ec5128b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Windows\main.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Mesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\AgApplication.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver\OGL\OGLContext.cpp">
+      <Filter>Source Files\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Renderer\Renderer.cpp">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Renderer\Camera\Camera.cpp">
+      <Filter>Source Files\Engine\Renderer\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Actor\Actor.cpp">
+      <Filter>Source Files\Engine\Actor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Windows\main.h">
+      <Filter>Source Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Mesh.h">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Singleton.h">
+      <Filter>Source Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\AgApplication.h">
+      <Filter>Source Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\OGL\OGLContext.h">
+      <Filter>Source Files\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Renderer\Renderer.h">
+      <Filter>Source Files\Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Renderer\Camera\Camera.h">
+      <Filter>Source Files\Engine\Renderer\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Actor\Actor.h">
+      <Filter>Source Files\Engine\Actor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Content\Shaders\clip.vert">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="..\Content\Shaders\red.frag">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
